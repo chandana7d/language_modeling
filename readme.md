@@ -33,11 +33,7 @@ $$a_i = b_i + \sum_{j=1}^{i-1} w_{ij}x_j$$
 
 ## Implementation
 
-The FVSBN can be implemented using neural networks, where each conditional probability is represented by a sigmoid unit. The network architecture is as follows:
-
-1. Input layer: Represents the observed variables
-2. Hidden layers: Compute the conditional probabilities
-3. Output layer: Produces the final joint probability
+The FVSBN can be implemented using formulation of conditional probailbity
 
 ## Training
 
