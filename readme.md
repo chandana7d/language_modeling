@@ -1,7 +1,4 @@
 
-Implementing Fully Visible Sigmoid Belief Network (FVSBN)
-
-Here's a detailed README format for the Fully Visible Sigmoid Belief Network (FVSBN):
 
 # Fully Visible Sigmoid Belief Network (FVSBN)
 
