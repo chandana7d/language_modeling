@@ -80,7 +80,7 @@ To enhance the bigram model, a **single-layer neural network** is implemented. T
      - Output: Probability distribution over the next character.
      - Activation Function: Softmax to ensure the output is a valid probability distribution.
 
-![Network Architecture](/bigram_language_model_network1.png)
+![Network Architecture](bigram_language_model_network1.png)
 
 3. **Training**:
    - Loss Function: Cross-Entropy Loss.
