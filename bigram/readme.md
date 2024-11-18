@@ -61,7 +61,7 @@ The bigram model predicts the probability of the next character based on the cur
      P(c_{i+1} | c_i) = \frac{\text{Count}(c_i, c_{i+1})}{\sum \text{Count}(c_i, c_j)}
      \]
 
-![Bigram heatmap ](/heatmap_plot.png)
+![Bigram heatmap ](heatmap_plot.png)
 3. **Sampling Technique**:
    - A multinomial distribution is used to sample the next character based on the probability distribution.
 
@@ -80,7 +80,7 @@ To enhance the bigram model, a **single-layer neural network** is implemented. T
      - Output: Probability distribution over the next character.
      - Activation Function: Softmax to ensure the output is a valid probability distribution.
 
-![Network Architecture](/bigram_language_model_network1.png)
+![Network Architecture](bigram_language_model_network1.png)
 
 3. **Training**:
    - Loss Function: Cross-Entropy Loss.
